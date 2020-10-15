@@ -209,7 +209,7 @@
       "name": "admob",
       "version": "v1",
       "title": "AdMob API",
-      "description": "The Google AdMob API lets you programmatically get reports on earnings.",
+      "description": "The AdMob API allows publishers to programmatically get information about their AdMob account.",
       "discoveryRestUrl": "https://admob.googleapis.com/$discovery/rest?version=v1",
       "icons": {
         "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
@@ -1871,7 +1871,7 @@
         "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
-      "documentationLink": "http://developers.google.com/cloud-dns",
+      "documentationLink": "https://cloud.google.com/dns/docs",
       "preferred": true
     },
     {
@@ -1886,7 +1886,7 @@
         "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
-      "documentationLink": "http://developers.google.com/cloud-dns",
+      "documentationLink": "https://cloud.google.com/dns/docs",
       "preferred": false
     },
     {
@@ -1933,6 +1933,36 @@
       },
       "documentationLink": "https://cloud.google.com/document-ai/docs/",
       "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "domains:v1alpha2",
+      "name": "domains",
+      "version": "v1alpha2",
+      "title": "Cloud Domains API",
+      "description": "Enables management and configuration of domain names.",
+      "discoveryRestUrl": "https://domains.googleapis.com/$discovery/rest?version=v1alpha2",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/domains/",
+      "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "domains:v1beta1",
+      "name": "domains",
+      "version": "v1beta1",
+      "title": "Cloud Domains API",
+      "description": "Enables management and configuration of domain names.",
+      "discoveryRestUrl": "https://domains.googleapis.com/$discovery/rest?version=v1beta1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/domains/",
+      "preferred": false
     },
     {
       "kind": "discovery#directoryItem",
@@ -2926,6 +2956,22 @@
       },
       "documentationLink": "https://cloud.google.com/",
       "preferred": false
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "oauth2:v2",
+      "name": "oauth2",
+      "version": "v2",
+      "title": "Google OAuth2 API",
+      "description": "[Deprecated] Obtains end-user authorization grants for use with other Google APIs.",
+      "discoveryRestUrl": "https://www.googleapis.com/discovery/v1/apis/oauth2/v2/rest",
+      "discoveryLink": "./apis/oauth2/v2/rest",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://developers.google.com/accounts/docs/OAuth2",
+      "preferred": true
     },
     {
       "kind": "discovery#directoryItem",
@@ -4335,7 +4381,7 @@
       "name": "webmasters",
       "version": "v3",
       "title": "Search Console API",
-      "description": "View Google Search Console data for your verified sites.",
+      "description": "[Deprecated] View Google Search Console data for your verified sites.",
       "discoveryRestUrl": "https://www.googleapis.com/discovery/v1/apis/webmasters/v3/rest",
       "discoveryLink": "./apis/webmasters/v3/rest",
       "icons": {
@@ -4425,15 +4471,14 @@
       "id": "youtube:v3",
       "name": "youtube",
       "version": "v3",
-      "title": "YouTube Data API",
-      "description": "Supports core YouTube features, such as uploading videos, creating and managing playlists, searching for content, and much more.",
-      "discoveryRestUrl": "https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest",
-      "discoveryLink": "./apis/youtube/v3/rest",
+      "title": "YouTube Data API v3",
+      "description": "The YouTube Data API v3 is an API that provides access to YouTube data, such as videos, playlists, and channels.",
+      "discoveryRestUrl": "https://youtube.googleapis.com/$discovery/rest?version=v3",
       "icons": {
-        "x16": "https://www.google.com/images/icons/product/youtube-16.png",
-        "x32": "https://www.google.com/images/icons/product/youtube-32.png"
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
-      "documentationLink": "https://developers.google.com/youtube/v3",
+      "documentationLink": "https://developers.google.com/youtube/",
       "preferred": true
     },
     {
